@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Search</title>
+    <link rel="icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header-advanced">
+      <div class="header-info">
+        <img src="images/googlelogo.png" alt="google logo" class="header-logo" />
+      </div>
+      <ul class="header-menu">
+        <li><a class="link" href="index.html">Search</a></li>
+        <li><a class="link" href="images-search.html">Images</a></li>
+        <li>
+          <a href="#"><i class="fa fa-th"></i></a>
+        </li>
+        <li><a class="letter-icon" href="#">R</a></li>
+      </ul>
+    </header>
+    <div class="advanced-main">
+      <div class="advanced-main__heading"><h2>Advanced Search</h2></div>
+      <div class="advanced-main__body">
+        <form action="https://www.google.com.au/search">
+          <div class="advanced-main__body-form-upper">
+            <div class="advanced-main__body-form-fields">
+              <h4>Find pages with...</h4>
+              <div>
+                <label for="as_q">all these words:</label>
+                <input type="text" name="as_q" id="as_q" />
+              </div>
+              <div>
+                <label for="as_epq">this exact word or phrase:</label>
+                <input type="text" name="as_epq" id="as_epq" />
+              </div>
+              <div>
+                <label for="as_oq">any of these words:</label>
+                <input type="text" name="as_oq" id="as_oq" />
+              </div>
+              <div>
+                <label for="as_eq">none of these words:</label>
+                <input type="text" name="as_eq" id="as_eq" />
+              </div>
+              <div class="nr-range">
+                <label for="nr-from">numbers ranging from</label>
+                <input type="text" id="nr-from" />
+                <label for="nr-to">to</label>
+                <input type="text" id="nr-to" />
+              </div>
+            </div>
+            <div class="advanced-main__body-tips">
+              <h5>To do this in the search box.</h5>
+              <p>Type the important words: tri-colour rat terrier</p>
+              <p>Put exact words in quotes: "rat terrier"</p>
+              <p>
+                Type OR between all the words you want: miniature OR standard
+              </p>
+              <p>
+                Put a minus sign just before words that you don't want: -rodent,
+                -"Jack Russell"
+              </p>
+              <p>
+                Put 2 periods between the numbers and add a unit of measure: 
+                10..35 lb, $300..$500, 2010..2011
+              </p>
+            </div>
+          </div>
+          <div class="advanced-main__body-form-down">
+            <div class="advanced-main__body-form-fields">
+              <h4>Then narrow your results by..</h4>
+              <div>
+                <label for="language">Language:</label>
+<select id="language">
+    <option>any language</option>
+    <option>Afrikaans</option>
+    <option>Albanian</option>
+    <option>Amharic</option>
+    <option>Arabic</option>
+    <option>Armenian</option>
+    <option>Azerbaijani</option>
+    <option>Basque</option>
+    <option>Belarusian</option>
+    <option>Bengali</option>
+    <option>Bosnian</option>
+    <option>Bulgarian</option>
+    <option>Burmese</option>
+    <option>Catalan</option>
+    <option>Cebuano</option>
+    <option>Chichewa</option>
+    <option>Chinese</option>
+    <option>Corsican</option>
+    <option>Croatian</option>
+    <option>Czech</option>
+    <option>Danish</option>
+    <option>Dutch</option>
+    <option>English</option>
+    <option>Esperanto</option>
+    <option>Estonian</option>
+    <option>Filipino</option>
+    <option>Finnish</option>
+    <option>French</option>
+    <option>Galician</option>
+    <option>Georgian</option>
+    <option>German</option>
+    <option>Greek</option>
+    <option>Gujarati</option>
+    <option>Haitian Creole</option>
+    <option>Hausa</option>
+    <option>Hawaiian</option>
+    <option>Hebrew</option>
+    <option>Hindi</option>
+    <option>Hmong</option>
+    <option>Hungarian</option>
+    <option>Icelandic</option>
+    <option>Igbo</option>
+    <option>Indonesian</option>
+    <option>Irish</option>
+    <option>Italian</option>
+    <option>Japanese</option>
+    <option>Javanese</option>
+    <option>Kannada</option>
+    <option>Kazakh</option>
+    <option>Khmer</option>
+    <option>Kinyarwanda</option>
+    <option>Korean</option>
+    <option>Kurdish (Kurmanji)</option>
+    <option>Kyrgyz</option>
+    <option>Lao</option>
+    <option>Latin</option>
+    <option>Latvian</option>
+    <option>Lithuanian</option>
+    <option>Luxembourgish</option>
+    <option>Macedonian</option>
+    <option>Malagasy</option>
+    <option>Malay</option>
+    <option>Malayalam</option>
+    <option>Maltese</option>
+    <option>Maori</option>
+    <option>Marathi</option>
+    <option>Mongolian</option>
+    <option>Montenegrin</option>
+    <option>Nepali</option>
+    <option>Norwegian</option>
+    <option>Odia</option>
+    <option>Pashto</option>
+    <option>Persian</option>
+    <option>Polish</option>
+    <option>Portuguese</option>
+    <option>Punjabi</option>
+    <option>Romanian</option>
+    <option>Russian</option>
+    <option>Samoan</option>
+    <option>Scots Gaelic</option>
+    <option>Serbian</option>
+    <option>Sesotho</option>
+    <option>Shona</option>
+    <option>Sindhi</option>
+    <option>Sinhala</option>
+    <option>Slovak</option>
+    <option>Slovenian</option>
+    <option>Somali</option>
+    <option>Spanish</option>
+    <option>Sundanese</option>
+    <option>Swahili</option>
+    <option>Swedish</option>
+    <option>Tajik</option>
+    <option>Tamil</option>
+    <option>Tatar</option>
+    <option>Telugu</option>
+    <option>Thai</option>
+    <option>Tigrinya</option>
+    <option>Turkish</option>
+    <option>Turkmen</option>
+    <option>Ukrainian</option>
+    <option>Urdu</option>
+    <option>Uyghur</option>
+    <option>Uzbek</option>
+    <option>Vietnamese</option>
+    <option>Welsh</option>
+    <option>Xhosa</option>
+    <option>Yiddish</option>
+    <option>Yoruba</option>
+    <option>Zulu</option>
+</select>
+              </div>
+              <div>
+                <label for="region">Region:</label>
+<select id="region">
+    <option>any region</option>
+    <option>Afghanistan</option>
+    <option>Albania</option>
+    <option>Algeria</option>
+    <option>Andorra</option>
+    <option>Angola</option>
+    <option>Antigua & Deps</option>
+    <option>Argentina</option>
+    <option>Armenia</option>
+    <option>Australia</option>
+    <option>Austria</option>
+    <option>Azerbaijan</option>
+    <option>Bahamas</option>
+    <option>Bahrain</option>
+    <option>Bangladesh</option>
+    <option>Barbados</option>
+    <option>Belarus</option>
+    <option>Belgium</option>
+    <option>Belize</option>
+    <option>Benin</option>
+    <option>Bhutan</option>
+    <option>Bolivia</option>
+    <option>Bosnia Herzegovina</option>
+    <option>Botswana</option>
+    <option>Brazil</option>
+    <option>Brunei</option>
+    <option>Bulgaria</option>
+    <option>Burkina</option>
+    <option>Burundi</option>
+    <option>Cambodia</option>
+    <option>Cameroon</option>
+    <option>Canada</option>
+    <option>Cape Verde</option>
+    <option>Central African Rep</option>
+    <option>Chad</option>
+    <option>Chile</option>
+    <option>China</option>
+    <option>Colombia</option>
+    <option>Comoros</option>
+    <option>Congo</option>
+    <option>Congo {Democratic Rep}</option>
+    <option>Costa Rica</option>
+    <option>Croatia</option>
+    <option>Cuba</option>
+    <option>Cyprus</option>
+    <option>Czech Republic</option>
+    <option>Denmark</option>
+    <option>Djibouti</option>
+    <option>Dominica</option>
+    <option>Dominican Republic</option>
+    <option>East Timor</option>
+    <option>Ecuador</option>
+    <option>Egypt</option>
+    <option>El Salvador</option>
+    <option>Equatorial Guinea</option>
+    <option>Eritrea</option>
+    <option>Estonia</option>
+    <option>Ethiopia</option>
+    <option>Fiji</option>
+    <option>Finland</option>
+    <option>France</option>
+    <option>Gabon</option>
+    <option>Gambia</option>
+    <option>Georgia</option>
+    <option>Germany</option>
+    <option>Ghana</option>
+    <option>Greece</option>
+    <option>Grenada</option>
+    <option>Guatemala</option>
+    <option>Guinea</option>
+    <option>Guinea-Bissau</option>
+    <option>Guyana</option>
+    <option>Haiti</option>
+    <option>Honduras</option>
+    <option>Hungary</option>
+    <option>Iceland</option>
+    <option>India</option>
+    <option>Indonesia</option>
+    <option>Iran</option>
+    <option>Iraq</option>
+    <option>Ireland {Republic}</option>
+    <option>Israel</option>
+    <option>Italy</option>
+    <option>Ivory Coast</option>
+    <option>Jamaica</option>
+    <option>Japan</option>
+    <option>Jordan</option>
+    <option>Kazakhstan</option>
+    <option>Kenya</option>
+    <option>Kiribati</option>
+    <option>Korea North</option>
+    <option>Korea South</option>
+    <option>Kosovo</option>
+    <option>Kuwait</option>
+    <option>Kyrgyzstan</option>
+    <option>Laos</option>
+    <option>Latvia</option>
+    <option>Lebanon</option>
+    <option>Lesotho</option>
+    <option>Liberia</option>
+    <option>Libya</option>
+    <option>Liechtenstein</option>
+    <option>Lithuania</option>
+    <option>Luxembourg</option>
+    <option>Macedonia</option>
+    <option>Madagascar</option>
+    <option>Malawi</option>
+    <option>Malaysia</option>
+    <option>Maldives</option>
+    <option>Mali</option>
+    <option>Malta</option>
+    <option>Marshall Islands</option>
+    <option>Mauritania</option>
+    <option>Mauritius</option>
+    <option>Mexico</option>
+    <option>Micronesia</option>
+    <option>Moldova</option>
+    <option>Monaco</option>
+    <option>Mongolia</option>
+    <option>Montenegro</option>
+    <option>Morocco</option>
+    <option>Mozambique</option>
+    <option>Myanmar, {Burma}</option>
+    <option>Namibia</option>
+    <option>Nauru</option>
+    <option>Nepal</option>
+    <option>Netherlands</option>
+    <option>New Zealand</option>
+    <option>Nicaragua</option>
+    <option>Niger</option>
+    <option>Nigeria</option>
+    <option>Norway</option>
+    <option>Oman</option>
+    <option>Pakistan</option>
+    <option>Palau</option>
+    <option>Panama</option>
+    <option>Papua New Guinea</option>
+    <option>Paraguay</option>
+    <option>Peru</option>
+    <option>Philippines</option>
+    <option>Poland</option>
+    <option>Portugal</option>
+    <option>Qatar</option>
+    <option>Romania</option>
+    <option>Russian Federation</option>
+    <option>Rwanda</option>
+    <option>St Kitts & Nevis</option>
+    <option>St Lucia</option>
+    <option>Saint Vincent & the Grenadines</option>
+    <option>Samoa</option>
+    <option>San Marino</option>
+    <option>Sao Tome & Principe</option>
+    <option>Saudi Arabia</option>
+    <option>Senegal</option>
+    <option>Serbia</option>
+    <option>Seychelles</option>
+    <option>Sierra Leone</option>
+    <option>Singapore</option>
+    <option>Slovakia</option>
+    <option>Slovenia</option>
+    <option>Solomon Islands</option>
+    <option>Somalia</option>
+    <option>South Africa</option>
+    <option>South Sudan</option>
+    <option>Spain</option>
+    <option>Sri Lanka</option>
+    <option>Sudan</option>
+    <option>Suriname</option>
+    <option>Swaziland</option>
+    <option>Sweden</option>
+    <option>Switzerland</option>
+    <option>Syria</option>
+    <option>Taiwan</option>
+    <option>Tajikistan</option>
+    <option>Tanzania</option>
+    <option>Thailand</option>
+    <option>Togo</option>
+    <option>Tonga</option>
+    <option>Trinidad & Tobago</option>
+    <option>Tunisia</option>
+    <option>Turkey</option>
+    <option>Turkmenistan</option>
+    <option>Tuvalu</option>
+    <option>Uganda</option>
+    <option>Ukraine</option>
+    <option>United Arab Emirates</option>
+    <option>United Kingdom</option>
+    <option>United States</option>
+    <option>Uruguay</option>
+    <option>Uzbekistan</option>
+    <option>Vanuatu</option>
+    <option>Vatican City</option>
+    <option>Venezuela</option>
+    <option>Vietnam</option>
+    <option>Yemen</option>
+    <option>Zambia</option>
+    <option>Zimbabwe</option>
+</select>
+                </select>
+              </div>
+              <div>
+                <label for="update">last update:</label>
+                <select id="update">
+                  <option>anytime</option>
+                  <option>past 24 hours</option>
+                  <option>past week</option>
+                  <option>past month</option>
+                  <option>past year</option>
+                </select>
+              </div>
+              <div>
+                <label for="site">site or domain:</label>
+                <input type="text" id="site" />
+              </div>
+              <div>
+                <label for="terms">terms appearing:</label>
+                <select id="terms">
+                  <option>anywhere in the page</option>
+                  <option>in the title of the page</option>
+                  <option>in the text of the page</option>
+                  <option>in the URL of the page</option>
+                  <option>in links to the page</option>
+                </select>
+              </div>
+              <div>
+                <label for="safe">SafeSearch:</label>
+                <select id="safe">
+                  <option>Show most relevant results</option>
+                  <option>Filter explicit results</option>
+                </select>
+              </div>
+              <div>
+                <label for="file">file type:</label>
+                <select id="file">
+                  <option>any format</option>
+                  <option>Adobe Acrobat PDF (.pdf)</option>
+                  <option>Adobe Postscript (.ps)</option>
+                  <option>Autodesk DWF (.dwf)</option>
+                  <option>Google Earth KML (.kml)</option>
+                  <option>Google Earth KMZ (.kmz)</option>
+                  <option>Microsoft Excel (.xls)</option>
+                  <option>Microsoft Powerpoint (.ppt)</option>
+                  <option>Microsoft Word (.doc)</option>
+                  <option>Rich Text Format (.rtf)</option>
+                  <option>Shockwave Flash (.swf)</option>
+                </select>
+              </div>
+              <div>
+                <label for="rights">usage rights:</label>
+                <select id="rigths">
+                  <option>not filtered by licence</option>
+                  <option>free to use or share</option>
+                  <option>free to use or share, even commercially</option>
+                  <option>free to use or share or modify</option>
+                  <option
+                    >free to use or share or modify, even commercially</option
+                  >
+                </select>
+              </div>
+              <button>Advanced Search</button>
+            </div>
+            <div class="advanced-main__body-tips second-tips">
+              <p>Find pages in the language that you select.</p>
+              <p>Find pages published in a particular region.</p>
+              <p>
+                Find pages updated within the time that you specify.
+              </p>
+              <p>
+                Search one site (like wikipedia.org ) or limit your results to a
+                domain like .edu, .org or .gov
+              </p>
+              <p>
+                Search for terms in the whole page, page title or web address,
+                or links to the page you're looking for.
+              </p>
+              <p>
+                Tell <a href="#">SafeSearch</a> whether to filter sexually
+                explicit content.
+              </p>
+              <p>Find pages in the format that you prefer.</p>
+              <p>Find pages that you are free to use yourself.</p>
+            </div>
+          </div>
+        </form>
+        <div class="advanced-main__info">
+          <h4>You can also...</h4>
+          <a href="#">Find pages that are similar to a URL</a>
+          <a href="#">Search pages that you've visited</a>
+          <a href="#">Use operators in the search box</a>
+          <a href="#">Customise your search settings</a>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div>Philippines</div>
+      <div>
+        <ul>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
